@@ -4,25 +4,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 .container{
     width:100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding:4% 0 0 10%;
 }
-
 .container h1{
     display:flex;
     align-items:center;
     font-size:35px;
     font-weight:600;
 }
-
 .container h1 img{
     width:60px;
 }
-
 .container button{
     display:flex;
     align-items:center;
@@ -36,19 +32,28 @@
     margin:30px 0 20px;
     cursor:pointer;
 }
-
 .container button img{
     width:45px;
     margin-right:8px;
 }
-
-.container .notes-container{
+.container .notes-container {
+    boder:0;
+}
+.container .notes-container p{
     width:350px;
     min-height: 200px;
     background: #fff;
-    border-radius:40px;
+    border-radius:20px;
+    position:relative;
+    margin:10px 0;
+    padding:20px;
+    border:0;
+    outline:none;
 }
-
-.input-box{
-    
+.input-box img{
+    width:25px;
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    cursor:pointer;
 }
