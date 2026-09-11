@@ -33,3 +33,11 @@ notesContainer.addEventListener("click", function (e) {
         });
     }
 });
+
+
+const containerStyle = {
+    width: "100%",
+    minHeight: "100vh",
+     background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+     padding: "4% 0 0 10%"
+}
