@@ -41,3 +41,9 @@ const containerStyle = {
      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
      padding: "4% 0 0 10%"
 }
+const containerH1Styles = {
+  display: "flex",
+  alignItems: "center",
+  fontSize: "35px",
+  fontWeight: 600
+};
