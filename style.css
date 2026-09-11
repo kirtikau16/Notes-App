@@ -36,9 +36,7 @@
     width:45px;
     margin-right:8px;
 }
-.container .notes-container {
-    boder:0;
-}
+
 .container .notes-container p{
     width:350px;
     min-height: 200px;
